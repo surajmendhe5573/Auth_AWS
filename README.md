@@ -1,7 +1,6 @@
 # 🚀 AWS EC2 Node.js Deployment Guide 
 This guide explains how to deploy a **Node.js backend application** on an **AWS EC2 Ubuntu Server** using **PM2**, **NGINX**, and **SSL (HTTPS) with Certbot**.
 
----
 
 # 📌 Overview
 
