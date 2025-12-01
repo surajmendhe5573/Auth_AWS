@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/contact', (req, res) => {
-     res.send('This is contact page !');
+     res.send('This is contact page :)');
 })
 
 app.get('/cicd', (req, res) => {
