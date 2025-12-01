@@ -40,6 +40,10 @@ app.get('/contact', (req, res) => {
      res.send('This is contact page !');
 })
 
+app.get('/cicd', (req, res) => {
+     res.send(`This is CICD pipeline ${process.env.NAME}`);
+})
+
 app.use('/api/v1/auth', authRoute);
 app.use('/api/v1/user', userRoute);
 
